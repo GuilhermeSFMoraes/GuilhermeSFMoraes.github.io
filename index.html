@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme">
+    <meta name="description" content="Essa é uma pagina html">
+    <meta name="keywords" content="site,html,projeto,web">
+    <link rel="shortcut icon" href="img/Mkho-Christmas-Christmas-tree.ico" type="image/x-icon">
+    <meta property="og:title" content="Feliz natal!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://icons.iconarchive.com/icons/mkho/christmas/128/Christmas-tree-icon.png" width="128" height="128">
+    <meta property="og:url" content="http://localhost:5500/" />>
+    <link rel="stylesheet" href="css/style.css">
     <title>Feliz Natal</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <h1>Santa Claus.</h1>
+            <img src="img/estrela.png"  alt="estrela" id="estrela">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <script src="js/teste.js"></script>
+    </header>
+    <main>
+        <article id="container-1">
+            <div id="tela">
+                <div id="mensagem-entrada">
+                    <h1 id="titulo">Feliz Natal</h1>
+                    <p>A energia natalina é mágica e contagiante, presente nas luzes, sorrisos e gestos de solidariedade. Celebrando o amor, a paz e a esperança, o Natal aquece corações, inspirando generosidade e tornando o período especial.</p>
+                </div>
+                <div >
+                    <img src="img/santa-claus-8375901_1920.png" alt="" id="papai-noel">
+                </div>
+            </div>
+        </article>
+        <article id="container-2">
+            <div id="tela2">
+                <div id="artigo">
+                    <img src="img/christmas-tree-1096220_1280.png" alt="arvore" id="arvore">
+                    <div id="mensagem-produtos">
+                        <h1 id="titulo">Produtos</h1>
+                        <p>Ho, ho, ho! Estou aqui no Polo Norte, na linda Lapônia, rodeado de neve e auroras boreais. Minha casa é cheia de elfos, onde criamos presentes mágicos para as crianças. Vim aqui para apresentar os meus panetones artesanais feito com muito amor e carinho!</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="mais-vendidos">
+            <div id="produtos">
+                <h3 id="titulo-2">Mais Vendidos:</h3>
+                <a href="#"><img src="img/kawe-rodrigues-P-v5L4JnR_U-unsplash (1).jpg" alt="" id="doce-leite">Doce de leite</a>
+                <a href="#"> <img src="img/jonathan-borba-SdMAITw3j7w-unsplash.jpg" alt="" id="nutella">Nutella</a>
+                <a href="#" id="doce"><img src="img/Novo Projeto.jpg" alt="" id="trufas">Trufas</a>
+            </div>
+        </article>
+        <article id="container-3">
+            <div id="tela3">
+                <div class="formulario">
+                    <h2>Deixe sua carta para o Papai Noel</h2>
+                    <form action="#">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Nome">
+                        <label for="endereço">Endereço</label>
+                        <input type="text" name="endereço" placeholder="Endereço">
+                        <label for="pedido">Seu pedido</label>
+                        <textarea name="pedido" id="pedido" cols="5" rows="4" placeholder="Escreva com o coração!"></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div id="artigo-2">
+                <img src="img/gift-575400_640.png" alt="presente" id="presente">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div id="container-4">
+            <div id="desenho">
+                <img src="img/doll-4707833_640.png" alt="biscoito" id="biscoito">
+            </div>
+            <h1>Tenham todos <br> um otimo natal<span>!</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
